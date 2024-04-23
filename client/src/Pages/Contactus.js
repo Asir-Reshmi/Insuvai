@@ -5,7 +5,7 @@ function ContactUs(){
     return(
         <div>
             <Navbar/>
-            <h1>This is Contactpage</h1>
+            {/* <h1>This is Contactpage</h1> */}
             
         </div>
     );

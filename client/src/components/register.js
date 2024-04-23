@@ -34,6 +34,7 @@ function RegistrationForm({ onSubmit }) {
 
   return (
     <form onSubmit={handleSubmit}>
+     
         <h1>REGISTER ACCOUNT</h1>
         
       {/* <label htmlFor="username">Username:</label>

@@ -6,7 +6,7 @@ function Aboutus(){
     return(
         <div>
             <Navbar/>
-            <h1>This is Aboutpage</h1>
+            {/* <h1>This is Aboutpage</h1> */}
             
         </div>
     );

@@ -5,7 +5,7 @@ function Gift(){
     return(
         <div>
             <Navbar/>
-            <h1>This is Giftpage</h1>
+            {/* <h1>This is Giftpage</h1> */}
             
         </div>
     );
