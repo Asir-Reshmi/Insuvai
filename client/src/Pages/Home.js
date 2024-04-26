@@ -1,14 +1,23 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
+import { Link } from "react-router-dom";
+import '../styles/Home.css'
+
 
 function Home(){
     return(
-        <div>
+    <div className='home' >
 
-        <Navbar/>
-            {/* <h1>This is Homepage</h1> */}
+       <div className='headerContainer'>
+        <h2>ALL TIME FAVOURITE</h2>
+        <p>Where Tradition Meets <br/>
+        Passion In Every Bite</p>
+        <Link to="/shop">
+          <button> SHOP NOW </button>
+        </Link>
+       </div>
+       
             
-        </div>
+    </div>
     );
 }
 export default Home;
