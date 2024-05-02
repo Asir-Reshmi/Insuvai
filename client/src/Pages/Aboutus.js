@@ -1,12 +1,13 @@
 import React from "react";
-// import MultiplePizzas from "../assets/multiplePizzas.jpeg";
+import Aboutimage from "../assets/Aboutimage.jpg";
 import "../styles/About.css";
 function About() {
   return (
     <div className="about">
-      <div>
-
-        </div>
+      <div
+        className="aboutTop"
+        style={{ backgroundImage: `url(${Aboutimage})` }}
+      ></div>
       <div className="aboutBottom">
         <h1> ABOUT US</h1>
         <p>
@@ -30,3 +31,4 @@ function About() {
 }
 
 export default About;
+

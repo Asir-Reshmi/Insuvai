@@ -1,13 +1,34 @@
-import React from 'react';
-import Navbar from '../components/Navbar';
+import React from "react";
+import heroimagee from "../assets/heroimagee.jpg";
+import "../styles/Contact.css";
 
-function ContactUs(){
-    return(
-        <div>
-            
-            <h1>This is Contactpage</h1>
-            
-        </div>
-    );
+function Contact() {
+  return (
+    <div className="contact">
+      <div
+        className="leftSide"
+        style={{ backgroundImage: `url(${heroimagee})` }}
+      ></div>
+      <div className="rightSide">
+        <h1> Contact Us</h1>
+
+        <form id="contact-form" method="POST">
+          <label htmlFor="name">Full Name</label>
+          <input name="name" placeholder="Enter full name..." type="text" />
+          <label htmlFor="email">Email</label>
+          <input name="email" placeholder="Enter email..." type="email" />
+          <label htmlFor="message">Message</label>
+          <textarea
+            rows="6"
+            placeholder="Enter message..."
+            name="message"
+            required
+          ></textarea>
+          <button type="submit"> Send Message</button>
+        </form>
+      </div>
+    </div>
+  );
 }
-export default ContactUs;
+
+export default Contact;

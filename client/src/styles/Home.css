@@ -2,9 +2,9 @@
   width: 100%;
   height: 90vh;
   display: flex;
-  justify-content: center;
-  align-items: left;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-direction: column; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,7 +13,7 @@
 
 .headerContainer {
   width: auto;
-  margin-left: 50px;
+  margin-left: 60px;
 }
 
 .headerContainer h1 {
@@ -98,3 +98,12 @@
 }
 
 /* image */
+
+.leftSide {
+  height: 100%;
+  flex: 50%;
+  width: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

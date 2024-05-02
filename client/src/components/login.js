@@ -218,6 +218,11 @@
 
 import React, { useState } from 'react';
 import styled from 'styled-components';
+// import LoginFormForgotPasswordLink from './LoginFormForgotPasswordLink'; // Importing the component
+// import { onForgotPasswordClick } from './someFile'; // Importing the function
+
+// Inside your component:
+
 
 const LoginForm = ({ onSubmit }) => {
   const [username, setUsername] = useState('');
@@ -286,8 +291,8 @@ const LoginForm = ({ onSubmit }) => {
         />
         <LoginFormLabel htmlFor="rememberMe">Remember me</LoginFormLabel>
       </LoginFormCheckboxContainer>
-
-      {/* <LoginFormForgotPasswordLink onClick={onForgotPasswordClick}>
+{/* 
+      <LoginFormForgotPasswordLink onClick={onForgotPasswordClick}>
         Forgot Password?
       </LoginFormForgotPasswordLink> */}
 
